@@ -7,7 +7,7 @@ def pmi(params):
 
     mask_info = {}
     remain = ['plenty','some','few','empty','break']
-    for data in response['stores'][:10]:
+    for data in response['stores'][:15]:
         # print(data['name'],data['remain_stat'])
         if data['remain_stat'] == remain[0]:
             mask_info[data['name']] = '100개 이상'
