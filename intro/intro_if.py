@@ -9,8 +9,15 @@ print(number + 3)
 
 # 1. if
 if number > 3 :
+    ## 들여쓰기 space bar 4번으로
     print("3초과")
 # if구문은 스페이스바 4번 해서 들여쓰기를 한다.
 print("????")
-
-
+# 1-2. 조건 여러개 쓰고 싶어요.
+if number > 10 :
+    print("10초과")
+    #그게 아니라,number가 10이하ㅡ 5초과 일때는?
+elif 10 >= number >5 :
+    print("10이상 5초과")
+else :
+    print("5이하")

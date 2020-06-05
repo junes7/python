@@ -26,7 +26,4 @@ mask = {
 print(mask)
 print(mask['삼성'])
 
-
-
-
 # 변수에 다른 값을 저장한다.
