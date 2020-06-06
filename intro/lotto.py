@@ -23,4 +23,9 @@ print(mask[pick])
 # 1-45 숫자 중 6개 출력
 lotto = random.sample(range(1, 46), 6)
 print(lotto)
+# iterable 객체로부터 정렬된 리스트를 생성
 print(sorted(lotto))
+print(lotto)
+# 리스트를 정렬된 형태로 변경
+print(lotto.sort())
+print(lotto)

@@ -12,6 +12,11 @@ print(number, string, boolean)
 # 2. 리스트 저장
 arr = [number, string, boolean]
 arr_2 = [10, "10", True, number]
+arr_2.append("20")
+print(arr_2)
+# 끝에 있는 문자를 제거할 때
+arr_2.pop()
+print(arr_2)
 # 2-1. 인덱스로 접근하기
 print(arr_2[0], arr_2[1], arr_2[2])
 # 2-2. 자료형 출력하기

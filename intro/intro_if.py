@@ -7,7 +7,7 @@ print(number + 3)
 # 스트링으로 변환하려면?
 #number = str(number)
 
-# 1. if
+# 1. if 조건문
 if number > 3 :
     ## 들여쓰기 space bar 4번으로
     print("3초과")
@@ -21,3 +21,4 @@ elif 10 >= number >5 :
     print("10이상 5초과")
 else :
     print("5이하")
+		

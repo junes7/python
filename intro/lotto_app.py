@@ -10,3 +10,5 @@ if pick['3rd'] >= 1:
 # 3. 4등 한 적 없으면, 실패 출력
 else:
     print('3등 실패')
+if pick['1st'] >= 1
+    print(f)

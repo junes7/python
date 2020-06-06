@@ -17,6 +17,7 @@ def lotto(number=1000):
         '4th' : 0,
         'fail' : 0
     }
+    
     for i in range(number):
         lotto = random.sample(range(1,46), 6)
         # lotto = [1, 3, 24, 35, 43, 22]

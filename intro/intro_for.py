@@ -34,6 +34,13 @@ for i in range(len(number)):
     print(number[i])
 print("*"*30)
 
+arr = [10, 30 ,20, 40, 100]
+for i in arr:
+    print(i)
+number1 = list(range(10))
+print(number1)
+print(len(number1))
+
 # 3. dictionary
 mask = {
     '삼성' : 100,
@@ -58,6 +65,8 @@ for key, val in mask.items():
     print(key,val)
 print("*"*30)
 # 2-3. enumerate 열거형
+# number1이라는 열거형 배열이 들어있는 주소값이 나온다.
+print(enumerate(number1))
 for idx, i in enumerate(number):
     print(idx, i)
 print("*"*30)
